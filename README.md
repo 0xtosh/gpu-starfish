@@ -1,6 +1,6 @@
 # Home GPU Cluster: Live-Bootable Node Tutorial
 
-Turn your idle home PCs, laptops, headless machines, NUCs etc into a powerful, unified GPU cluster without wiping their hard drives. This setup uses a Live Linux USB (via Ventoy) with a persistent partition, allowing you to plug in, boot, and immediately contribute VRAM to a central orchestrator.
+Turn your idle home PCs, laptops, headless machines, NUCs etc into a powerful, unified GPU cluster without wiping their hard drives. This setup uses a Live Linux USB (via Ventoy) with a persistent partition, allowing you to plug in, boot, and immediately contribute VRAM to a central orchestrator using llama.cpp which can accomodate any local model e.g. Gemma, Qwen, Deepseek, Phi over llama.cpp to be orchestrated by your UI, tool or API of choice e.g. Msty, LM Studio, Visual Studio Code, etc.
 
 ## Purpose
 
