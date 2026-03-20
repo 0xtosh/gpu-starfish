@@ -1,4 +1,4 @@
-# 🚀 Home GPU Cluster: Live-Bootable Node Tutorial
+# Home GPU Cluster: Live-Bootable Node Tutorial
 
 Turn your idle home PCs, laptops, headless machines, NUCs etc into a powerful, unified GPU cluster without wiping their hard drives. This setup uses a Live Linux USB (via Ventoy) with a persistent partition, allowing you to plug in, boot, and immediately contribute VRAM to a central orchestrator.
 
@@ -13,6 +13,8 @@ When your gaming rig, work laptop, or Intel NUC isn't in use, boot it from this 
 | Gaming Desktop | **NVIDIA RTX 2080Ti** | 11GB | CUDA 12+ / Driver 535+ | 
 | Old Laptop | **NVIDIA GTX 980M** | 4GB | Legacy Support | 
 | Modern Rig | **Asus RTX 5060** | 8GB | CUDA 12+ | 
+| Modern Rig | **NVIDIA RTX 40 series** | 16GB | CUDA 12+ | 
+| Modern Rig | **NVIDIA RTX 50 series** | 32GB | CUDA 12+ | 
 | Intel NUC | **AMD Radeon RX Vega M** | 4GB | Vulkan / Mesa | 
 
 ## Step 1: Prepare the "Cluster USB"
@@ -34,3 +36,4 @@ Once booted into your Live environment, open a terminal and run the following co
 ```bash
 # Replace with your actual repo link after you upload setup.sh
 curl -sSL [https://raw.githubusercontent.com/0xtosh/gpu-starfish/main/setup.sh](https://raw.githubusercontent.com/0xtosh/gpu-starfish/main/setup.sh) | bash
+```
